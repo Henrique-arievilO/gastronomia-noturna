@@ -1,13 +1,13 @@
 :root {
-    --color-00: #FFFFFF,
-        --color-01: #3C3C3C,
-        --color-02: #141414,
-        --color-03: #000000,
-        --color-p01: #2A0919,
-        --color-p02: #7E1A4B,
-        --color-p03: #7E6672,
-        --color-p04: #83536A,
-        --color-p05: #B18E9F,
+    --color-00: #ffffff;
+    --color-01: #3C3C3C;
+    --color-02: #141414;
+    --color-03: #000000;
+    --color-p01: #2A0919;
+    --color-p02: #7E1A4B;
+    --color-p03: #7E6672;
+    --color-p04: #83536A;
+    --color-p05: #B18E9F;
 }
 
 .color-00 {

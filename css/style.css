@@ -1,6 +1,7 @@
 /* Estilos globais */
 
 @import url(./global/global.css);
+@import url(./global/header.css);
 @import url(./global/footer.css);
 
 /* Estilos de cor, tipografia e componentes */
