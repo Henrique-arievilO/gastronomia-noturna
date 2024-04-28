@@ -1,0 +1,48 @@
+.recipes-bg {
+    background: linear-gradient(var(--color-p01), var(--color-03));
+}
+
+.recipes h2 {
+    margin-bottom: 40px;
+}
+
+.recipes-carousel {
+    display: flex;
+    gap: 40px;
+    overflow-x: scroll;
+}
+
+.recipes-carousel a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.recipes-carousel figure {
+    margin: 0px;
+    width: 325px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.recipes-carousel figure img {
+    transition: .3s ease-out;
+}
+
+.recipes-carousel figure:hover img {
+    transform: scale(1.1);
+}
+
+.recipes-carousel h3 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.recipes-carousel h3::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    background-image: url(../../img/icons/dec-1.png);
+}
