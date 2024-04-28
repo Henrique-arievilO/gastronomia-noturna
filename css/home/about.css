@@ -1,0 +1,11 @@
+.about-bg {
+    background-color: var(--color-p01);
+}
+
+.about h2 {
+    margin-bottom: 40px;
+}
+
+.about p+p {
+    margin-top: 20px;
+}

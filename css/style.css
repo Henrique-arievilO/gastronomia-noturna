@@ -10,6 +10,10 @@
 @import url(./utilities/components.css);
 @import url(./utilities/typography.css);
 
+/* Home */
+
+@import url(./home/about.css);
+
 /* Página interna de receitas */
 
 @import url(./recipes/recipe-internal.css);
