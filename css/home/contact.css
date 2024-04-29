@@ -1,5 +1,6 @@
 .contact-bg {
     background: linear-gradient(var(--color-03), var(--color-02));
+    box-shadow: inset 0px -120px 0px 0px var(--color-03);
 }
 
 .contact {
@@ -36,10 +37,33 @@
     border-radius: 4px;
     border: 2px solid var(--color-p04);
     background-color: var(--color-01);
+    color: var(--color-00);
+
 }
 
-.contact-form input:focus {
-    border: 2px solid red;
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    background-color: var(--color-02);
+    box-shadow: 0 0 4px 0 rgba(218, 123, 169, 80%);
+}
+
+::-webkit-input-placeholder {
+    font-weight: 700;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-weight: 700;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-weight: 700;
+}
+
+:-ms-input-placeholder {
+    font-weight: 700;
 }
 
 .contact-img {

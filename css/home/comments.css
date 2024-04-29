@@ -1,3 +1,7 @@
+.comments-bg {
+    background-color: var(--color-03);
+}
+
 .comments h2 {
     margin-bottom: 40px;
 }
