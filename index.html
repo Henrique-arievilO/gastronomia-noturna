@@ -34,7 +34,7 @@
     </header>
     <main>
         <section class="about-bg">
-            <div class="about container">
+            <div class="about container" id="about">
                 <h2 class="font-1-l color-00">Nossa História</h2>
                 <p class="font-2-s color-00">O Gastronomia Noturna nasceu da paixão de um grupo de amigos por culinária e cultura gótica. Eles perceberam que, embora houvessem muitos sites de receitas e blogs de comida, nenhum deles se concentrava especificamente na estética e sabores únicos da culinária gótica.</p>
                 <p class="font-2-s color-00">Assim, eles decidiram criar um espaço onde pudessem compartilhar suas criações culinárias escuras e deliciosas. O site rapidamente ganhou popularidade, atraindo amantes da comida e da cultura gótica de todo o mundo. Hoje, o Gastronomia Noturna é um destino de referência para quem procura inspiração culinária gótica, oferecendo uma variedade de receitas, dicas de decoração de pratos e até mesmo recomendações de vinhos para complementar suas refeições.</p>
@@ -42,7 +42,7 @@
             </div>
         </section>
         <section class="recipes-bg">
-            <div class="recipes container">
+            <div class="recipes container" id="recipes">
                 <h2 class="font-1-l color-00">Receitas</h2>
                 <div class="recipes-carousel">
                     <a href="./black-velvet">
@@ -85,7 +85,7 @@
             </div>
         </section>
         <section class="comments-bg">
-            <div class="comments container">
+            <div class="comments container" id="comments">
                 <h2 class="font-1-l color-00">Quem testou e aprovou</h2>
                 <div class="comments-content">
                     <div class="comments-card">
@@ -108,6 +108,28 @@
                         <h4 class="font-3-m color-00">Rafael Siqueira</h4>
                         <p class="font-2-s color-00">“A culinária gótica nunca foi tão acessível e divertida. Este site é uma verdadeira revelação. Parabéns aos criadores!”</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-bg">
+            <div class="contact container" id="contact">
+                <form action="./" class="contact-form color-00">
+                    <h2 class="font-1-l">Contato</h2>
+                    <div>
+                        <label for="name" class="font-3-m color-00">Nome:</label>
+                        <input type="text" id="name" placeholder="Seu nome" class="font-2-mb">
+                    </div>
+                    <div>
+                        <label for="email" class="font-3-m color-00">E-mail:</label>
+                        <input type="email" id="email" placeholder="Seu e-mail" class="font-2-mb">
+                    </div>
+                    <div>
+                        <label for="message" class="font-3-m color-00">Mensagem:</label>
+                        <textarea rows="5" id="message" placeholder="Sua mensagem" class="font-2-mb"></textarea>
+                    </div>
+                </form>
+                <div class="contact-img">
+                    <img src="./img/contact-img.png" alt="">
                 </div>
             </div>
         </section>
