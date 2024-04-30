@@ -24,11 +24,6 @@
     margin-bottom: 12px;
 }
 
-.contact-form input {
-    margin-bottom: 20px;
-
-}
-
 .contact-form input,
 .contact-form textarea {
     display: block;
@@ -38,7 +33,7 @@
     border: 2px solid var(--color-p04);
     background-color: var(--color-01);
     color: var(--color-00);
-
+    margin-bottom: 20px;
 }
 
 .contact-form input:focus,
