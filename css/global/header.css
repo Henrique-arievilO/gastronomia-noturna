@@ -51,7 +51,7 @@ header {
 }
 
 @media (min-width: 1300px) {
-    header {
+    .header-bg {
         height: 100vh;
     }
 }
